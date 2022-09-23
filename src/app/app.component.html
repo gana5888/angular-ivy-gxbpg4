@@ -1,0 +1,7 @@
+<hello name="{{ name }}"></hello>
+<div *ngFor="let data of dataArray">
+  {{ data.name }}
+  <p>{{ data.birthDate }}</p>
+  <p>{{ data.birthDate | date }}</p>
+  <p>{{ data.birthDate | dateAgo }}</p>
+</div>
